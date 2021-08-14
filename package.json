@@ -7,7 +7,8 @@
         "watch-poll": "mix watch -- --watch-options-poll=1000",
         "hot": "mix watch --hot",
         "prod": "npm run production",
-        "production": "mix --production"
+        "production": "mix --production",
+        "lint": "prettier --config=.prettierrc --write --parser=php ."
     },
     "devDependencies": {
         "@types/tailwindcss": "^2.2.1",
@@ -17,5 +18,9 @@
         "lodash": "^4.17.19",
         "postcss": "^8.3.6",
         "tailwindcss": "^2.2.7"
+    },
+    "dependencies": {
+        "@prettier/plugin-php": "^0.17.3",
+        "prettier": "^2.3.2"
     }
 }
