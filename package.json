@@ -7,17 +7,19 @@
     "serve": "vite preview"
   },
   "devDependencies": {
+    "@prettier/plugin-php": "^0.17.3",
+    "@tailwindcss/custom-forms": "^0.2.1",
+    "@types/color": "^3.0.2",
     "@types/tailwindcss": "^2.2.1",
+    "alpinejs": "^3.2.3",
     "autoprefixer": "^10.3.1",
     "axios": "^0.21",
+    "laravel-vite": "^0.0.16",
     "lodash": "^4.17.19",
     "postcss": "^8.3.6",
+    "prettier": "^2.3.2",
     "tailwindcss": "^2.2.7",
-    "vite": "^2.4.4",
-    "laravel-vite": "^0.0.16"
-  },
-  "dependencies": {
-    "@prettier/plugin-php": "^0.17.3",
-    "prettier": "^2.3.2"
+    "tailwindcss-multi-theme": "^1.0.4",
+    "vite": "^2.4.4"
   }
 }

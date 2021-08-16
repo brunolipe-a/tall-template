@@ -1,6 +1,8 @@
 <?php
 
+use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Route;
+use Illuminate\Support\Facades\Validator;
 
 /*
 |--------------------------------------------------------------------------
@@ -16,3 +18,12 @@ use Illuminate\Support\Facades\Route;
 Route::get('/', function () {
   return view('welcome');
 });
+
+Route::get('/as', function (Request $request) {
+  // $validated = $request->validate([
+  //   'title' => 'required|unique:posts|max:255',
+  //   'body' => 'required',
+  // ]);
+
+  return redirect('/')->with(['success' => 'Opaoapa']);
+})->name('logout');

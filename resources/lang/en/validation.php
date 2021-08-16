@@ -134,6 +134,8 @@ return [
   'url' => 'The :attribute must be a valid URL.',
   'uuid' => 'The :attribute must be a valid UUID.',
 
+  'message' => 'The giving data is invalid.',
+
   /*
     |--------------------------------------------------------------------------
     | Custom Validation Language Lines

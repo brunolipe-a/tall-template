@@ -10,3 +10,7 @@
 */
 
 import 'tailwindcss/tailwind.css'
+import Alpine from 'alpinejs'
+// import './initTemplate'
+
+Alpine.start()
